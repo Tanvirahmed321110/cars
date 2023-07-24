@@ -1,0 +1,388 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    ::selection{
+        color: red;
+        background-color: #9a9ea711;
+    }
+   }
+.waper{
+    overflow: hidden;
+}
+   
+header{
+    margin: 21px 5% 21px 8%;
+}   
+   
+header nav{
+  display: flex;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 41px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 42px;
+}
+header nav ul li{
+    list-style:none;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-item{
+    width: 85%;
+    
+}
+.res-small{
+    display: none;
+}
+header nav ul li button{
+    margin-right: 9px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.sign-up-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    font-family: Material Icons;
+}
+.head-li::after,sign-up-text::after{
+    content: '';
+    display: block;
+    transition: .5s all linear;
+    background-color: rgb(77, 68, 52);
+    height:.1px;
+    width: 1%;
+}
+.head-li:hover.head-li::after{
+    /* font-size: 17px; */
+    width: 100%;
+    border: 1px solid olive;
+    
+}
+
+
+
+/* ---- section 1 start here--------- */
+.section1{
+    background-image: url(../logo-img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 550px;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.section1 h1{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 74px;
+    letter-spacing: .1px;
+    color: white;
+    padding-top: 140px;
+    text-align: center;
+}
+.section1 p{
+    margin-top: 29px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);    
+}
+
+/*  section1 footer start here */
+.section1-footer{
+    width: 70%;
+    /* background-color: orange; */
+    height: 82px;
+    margin: 0 auto;
+    margin-top: 130px;
+    z-index: 99;
+}
+.section1-grid{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    box-shadow: 0px 3px 4px 0px #4f505a26;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.section1-grid-child{
+    margin: 10px 10px;
+    width: 90%;
+    border-right: 1px solid #e8eaf0;
+    /* background-color: orchid; */
+    height: 62px;
+    position: relative;
+}
+.section1-grid-child p{
+    text-align: left;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #9A9EA7;
+}
+.section1-grid-child select{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.select-same3{
+    color: #9A9EA7;
+    margin-bottom: 9px;
+}
+
+option{ 
+    background-color: rgb(230, 219, 219);
+    color: black;  
+}
+.search{
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: .4px;
+}
+.search img{
+    padding-right: 8px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+
+
+
+/* ----- car brand section start */
+.section-car-brand{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.car-brand-All-item{
+    /* background-color: rgb(205, 189, 221); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    gap: 68px;
+    width: 80%;
+    margin: 0 auto;
+}
+.car-brand-item{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-hyundai{
+    padding-top: 12px;
+    width: 150px;
+    height: 20px;
+}
+.img-lexus{
+    padding-top: 10px;
+    width: 160px;
+    height: 26px;
+}
+.img-marcedes{
+    padding-top:5px;
+    width: 178px;
+    height: 36px;
+}
+.img-marcedes1{
+    padding-top: 7px;
+    width: 38px;
+    height: 38px;
+}
+.img-hyundai1{
+    padding-top: 7px;
+    width: 52px;
+    height: 35px;
+}
+.img-lexus1{
+    width: 75px;
+    height: 38px;
+    padding-top: 7px;
+}
+
+          /*------- responsive header-------- */
+@media screen and (max-width: 1000px){
+    
+    header{
+        height: auto;
+    }
+    #head{
+        background-color: rgb(241, 241, 240);
+        padding:1px;
+    }
+    nav{
+        height: auto;
+        width: 80%;
+        margin: 0 auto;background-color: transparent !important;
+    }
+    .header-ul{
+        display: none;
+   
+    }
+    .res-small{
+        height: 32px;
+        width: 32px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(164, 240, 243);
+        position: absolute;
+        right: 10px;
+        top: -16px;
+        padding: 17px 20px;
+    }
+    .res-small img{
+        text-align: center;
+        width: 27px;
+        height: 27px;
+    }
+    .nav-item{
+        position: relative;
+        width: 99%;
+        
+    }
+    .nav-item li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid yellow;
+        padding: 12px;
+        width: 90%;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .sign-up-text{
+        color: rgb(255, 255, 255);
+    }
+    .nav-item:hover .header-ul{
+        display: block;
+        background-color: cadetblue;
+        width:88% !important;
+        height: auto;
+        padding-right: 5%;
+        margin: 0 auto;
+        /* margin-right: 5%; */
+        position: absolute;
+        left: -23px;
+        top: 15px;
+        border-radius: 4px;
+    }
+    .none{
+        display: none;
+    }
+    .btn:hover.none{
+        display: block;
+    }
+    
+    
+    
+    /* --- section1 responsive */
+    .section1 h1{
+        font-size: 37px;
+        padding:  10px ;
+    }
+    .section1 p{
+        font-size: 19px;
+        width: 80%;
+        text-align: center;
+        margin: 23px auto;
+        letter-spacing: .5px;
+    }
+    .section1-footer{
+        position: relative;
+        width:95%;
+    }
+    .section1-grid{
+        position: absolute;
+        top: -100px;
+        grid-template-columns:400px !important;
+        grid-template-rows: 70px;
+        margin: 0 1.5%;
+    }
+    .section1-grid-child{
+        border-bottom: 1px solid red;
+        position: relative;
+        border-right:  none;
+        width: 90%;
+    }
+    .section1-grid-child p{
+        font-size: 13px;
+        position: absolute;
+        left: -118px;
+        top: -13px;
+    }
+    .last{
+        border-bottom: none;
+    }
+    .search{
+        width:340px;
+        margin: 0 auto;
+        
+    }
+    
+    
+    /* ---section card brand --- */
+    .section-car-brand{
+        padding:280px 0 50px;  width: 70%;
+    }
+    .car-brand-All-item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .car-brand-item{
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30%;
+        height: 23px;
+    }
+}
